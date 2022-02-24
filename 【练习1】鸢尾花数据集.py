@@ -44,9 +44,9 @@ scoring = 'accuracy'
 #3.搭建和评估模型
 models = []
 models.append(('LR', LogisticRegression()))   #逻辑回归
-models.append(('LDA', LinearDiscriminantAnalysis()))
-models.append(('KNN', KNeighborsClassifier()))
-models.append(('CART', DecisionTreeClassifier()))
+models.append(('LDA', LinearDiscriminantAnalysis()))  #线性判别分析
+models.append(('KNN', KNeighborsClassifier()))  #K近邻算法
+models.append(('CART', DecisionTreeClassifier()))  #决策树
 models.append(('NB', GaussianNB()))
 models.append(('SVM', SVC()))
 # evaluate each model in turn
