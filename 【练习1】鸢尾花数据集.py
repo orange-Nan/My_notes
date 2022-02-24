@@ -43,7 +43,7 @@ X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(
 scoring = 'accuracy'
 #3.搭建和评估模型
 models = []
-models.append(('LR', LogisticRegression()))
+models.append(('LR', LogisticRegression()))   #逻辑回归
 models.append(('LDA', LinearDiscriminantAnalysis()))
 models.append(('KNN', KNeighborsClassifier()))
 models.append(('CART', DecisionTreeClassifier()))
