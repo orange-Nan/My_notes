@@ -47,8 +47,8 @@ models.append(('LR', LogisticRegression()))   #逻辑回归
 models.append(('LDA', LinearDiscriminantAnalysis()))  #线性判别分析
 models.append(('KNN', KNeighborsClassifier()))  #K近邻算法
 models.append(('CART', DecisionTreeClassifier()))  #决策树
-models.append(('NB', GaussianNB()))
-models.append(('SVM', SVC()))
+models.append(('NB', GaussianNB()))  #朴素贝叶斯
+models.append(('SVM', SVC()))  #支持向量机（SVM/SVC）
 # evaluate each model in turn
 results = []
 names = []
