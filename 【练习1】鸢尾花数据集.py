@@ -1,4 +1,4 @@
-# Load libraries
+#导入库包
 import pandas
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -13,19 +13,16 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-# Load dataset 导入数据集
+#导入数据集（鸢尾花数据集，分类）
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
 
-# shape 数据集维度
-#print(dataset.shape)
-#数据集前20行
-#print(dataset.head(20))
-# descriptions 统计摘要（数量、平均值、最大值、最小值等）
-#print(dataset.describe())
-# class distribution 每一个类别（每一种鸢尾花）行的数量
-#print(dataset.groupby('class').size())
+
+#print(dataset.shape)   #shape数据集维度
+#print(dataset.head(20))   #数据集前20行
+#print(dataset.describe())   #descriptions统计摘要（数量、平均值、最大值、最小值等）
+#print(dataset.groupby('class').size())  #class distribution每一个类别（每一种鸢尾花）行的数量
 
 #数据可视化
 #为每一个变量创建箱线图
