@@ -6,7 +6,7 @@ import datetime
 from sklearn.cluster import KMeans
 
 #导入数据
-f = r'C:\Users\LULU\Desktop\biyelunwen\shuju\Shenyang_meteorological_data.csv'
+f = r'C:\Users\LULU\Desktop\Shenyang_meteorological_data.csv'
 sheet = pd.read_csv(f,header=0)
 data = DataFrame(sheet)
 
