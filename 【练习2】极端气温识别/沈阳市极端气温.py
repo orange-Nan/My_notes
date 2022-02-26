@@ -24,7 +24,7 @@ y2 = np.array(y1)
 y2 = y2.reshape(-1,1)
 
 #Kmeans
-y = KMeans(n_clusters=50).fit_predict(y2)
+y = KMeans(n_clusters=15).fit_predict(y2)
 
 #画图
 fig = plt.figure(figsize=(10,10),dpi=200)
