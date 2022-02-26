@@ -33,5 +33,5 @@ ax1.scatter(data['date'],data['T'],c=y)  #使用date和T画散点图，Kmeans分
 ax1.set_xlabel('Time',fontsize=15)
 ax1.set_ylabel('Temperature(°C)',fontsize=15)
 plt.suptitle('Distribution of Temperature in Shenyang',fontsize=20,y=0.92)
-plt.savefig('C:/Users/LULU/Desktop/Kmean.jpg')
+plt.savefig('C:/Users/LULU/Desktop/Kmean_Temperature.jpg')
 plt.show()
