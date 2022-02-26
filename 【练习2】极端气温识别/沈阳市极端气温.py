@@ -23,7 +23,7 @@ y1 = list(data['T'])
 y2 = np.array(y1)
 y2 = y2.reshape(-1,1)
 
-#Kmeans
+#Kmeans识别极端气温（另一个是识别PM2.5污染事件）
 y = KMeans(n_clusters=15).fit_predict(y2)
 
 #画图
