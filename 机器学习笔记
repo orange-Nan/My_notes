@@ -83,3 +83,9 @@
   行:样本/向量列:特征
 2.分类算法中:X特征向量 Y标签值
 3.有监督学习中:数据集dataset、训练集、测试集
+在sklearn中自带的数据集中有以下几个部分：
+  data特征数据数组，样本的特征参数
+  target标签数组，比如黑猫、白猫
+  DESCR数据描述
+  featurenames特征名
+  targetnames标签名
