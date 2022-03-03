@@ -78,7 +78,9 @@
 2.分类算法中:X特征向量 Y标签值
 3.有监督学习中:数据集dataset、训练集、测试集
   样本sample：每一条单独的数据
-  属性attribute/特征feature
+  属性attribute/特征feature：对于每个样本，它都具有一些特征
+  特征值feature value：特征所具体取的值
+  特征空间feature space/样本空间sample space：特征和样本所张成的向量空间
 在sklearn中自带的数据集中有以下几个部分：
   data特征数据数组，样本的特征参数
   target标签数组，比如黑猫、白猫
