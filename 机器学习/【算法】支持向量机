@@ -14,6 +14,10 @@ SVM还包括核技巧，这使它成为实质上的非线性分类器。SVM利�
 3.思路：
 
 4.常用求解方法：
+常用的核函数：
+h度多项式核函数(polynomial kernel of degree h)
+高斯径向基核函数(Gaussian radial basis function kernel)
+S型核函数(Sigmoid function kernel)
 
 5.优点：
 （小样本）SVM可以在较少的数据下取得好的性能
