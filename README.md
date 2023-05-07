@@ -21,7 +21,11 @@ NCL，grads，跟Python/Matlab一样都是画图的，如果你自己课题组�
 另：fortran，有兴趣可以自学，因为你也不知道哪一天会遇到师门祖传的fortran代码。fortran还广泛应用于大气和海洋数值模式的开发/优化，
 有一些数值模式开发/优化可能会用到C语言/C++，以后如果要走这个方向的话可以考虑自学
 
-3.数值分析方法
+3.数据分析方法+简单算法实现
+【【鼠鼠】海洋科研绘图14：SOI指数三点平滑（时间序列分析）】 https://www.bilibili.com/video/BV1oc411N7gt
+【【鼠鼠】Python统计高温日连续出现最长的日数】 https://www.bilibili.com/video/BV1Wv4y1R7sV
+【【鼠鼠】Python绘图技巧3：批量读取nc文件&多文件数据处理与可视化思路】 https://www.bilibili.com/video/BV15a411P751
+
 —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— ——
 
 碎碎念：其实本来是有Python笔记的，但是后面发现越学越多，根本做不完。所以还是看看b站视频吧（乐）
